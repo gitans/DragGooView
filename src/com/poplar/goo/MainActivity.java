@@ -65,7 +65,7 @@ public class MainActivity extends ListActivity {
 						mRemoved.add(position);
 						notifyDataSetChanged();
 						Utils.showToast(getContext(),
-								"Cheers! We have get rid of it!");
+								"nice！拿掉它了！");
 					}
 
 					@Override
@@ -74,7 +74,7 @@ public class MainActivity extends ListActivity {
 
 						notifyDataSetChanged();
 						Utils.showToast(getContext(),
-								isOutOfRange ? "Are you regret?" : "Try again!");
+								isOutOfRange ? "你后悔了？" : "再试一次！");
 					}
 				
 				};
