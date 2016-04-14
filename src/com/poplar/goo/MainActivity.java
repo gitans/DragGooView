@@ -75,6 +75,7 @@ public class MainActivity extends ListActivity {
 						Utils.showToast(getContext(),
 								isOutOfRange ? "Are you regret?" : "Try again!");
 					}
+				
 				};
 				mUnreadView.setOnTouchListener(mGooListener);
 			}
